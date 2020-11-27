@@ -1,0 +1,95 @@
+.movie
+{
+    margin-top: 320px;
+}
+
+.movie > .box > img
+{
+    max-height: 200px;
+    max-width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+.movie > .box > img:hover
+{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* .movie > .movie__content > .movie__options
+{
+    color: black;
+}
+
+.movie > .movie__content > .movie__details
+{
+    color: black;
+}
+
+.movie > .movie__content > .movie__genre
+{
+    color: black;
+}
+
+.movie > .box:hover .movie__content > .movie__details
+{
+    color: white;
+} */
+
+.movie__options
+{
+    margin-left: 13px;
+    color: white;
+}
+
+.movie__details
+{
+    margin-left: 13px;
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.movie__details > h4
+{
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.movie__genre
+{
+    color: white;
+}
+
+.movie__genre > h3
+{
+    margin-left: 13px;
+}
+
+.movieOptions__play
+{
+    margin-right: 5px;
+}
+
+.movieOptions__add
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.movieOptions__like
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.movieOptions__dislike
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
