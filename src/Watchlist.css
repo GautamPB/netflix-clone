@@ -1,4 +1,23 @@
 .watchlist
 {
     margin-top: 65px;
+    background-color: #141414;
+    height: 100%;
+}
+
+.watchlist__heading
+{
+    color: white;
+    font-size: 25px;
+}
+
+.watchlist__heading > p
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    z-index: 1;
+    background: #141414;
+    width: 100%;
+    padding-left: 55px;
 }

@@ -12,7 +12,7 @@
     display: flex;
     padding-left: 5px;
     padding-right: 5px;
-    background: black;
+    background: #141414;
     display: flex;
     padding-bottom: 20px;
     justify-content: space-evenly;
@@ -28,6 +28,10 @@
     margin-left: 15px;
 }
 
+.homePage__row__header > p
+{
+    font-weight: bold;
+}
 
 .banner__info
 {

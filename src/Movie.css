@@ -19,29 +19,36 @@
     box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
 }
 
-/* .movie > .movie__content > .movie__options
-{
-    color: black;
-}
-
-.movie > .movie__content > .movie__details
-{
-    color: black;
-}
-
-.movie > .movie__content > .movie__genre
-{
-    color: black;
-}
-
-.movie > .box:hover .movie__content > .movie__details
-{
-    color: white;
-} */
-
 .movie__options
 {
     margin-left: 13px;
+    color: white;
+}
+
+.movie__options__button
+{
+    padding: 0px;
+    border: none;
+    background: #141414;
+}
+
+.movieOptions__play
+{
+    color: white;
+}
+
+.movieOptions__like
+{
+    color: white;
+}
+
+.movieOptions__dislike
+{
+    color: white;
+}
+
+.movieOptions__add
+{
     color: white;
 }
 
