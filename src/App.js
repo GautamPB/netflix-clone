@@ -2,7 +2,6 @@ import './App.css';
 import Header from './Header'
 import Home from './Home'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Login from './Login'
 import Watchlist from './Watchlist'
 
 function App() {
@@ -10,11 +9,6 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-
-          <Route path='/login'>
-            <Header />
-            <Login />
-          </Route>
 
           <Route path='/watchlist'>
             <Header />

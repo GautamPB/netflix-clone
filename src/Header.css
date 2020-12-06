@@ -37,6 +37,7 @@
 {
     text-decoration: none;
     color: white;
+    margin-right: 15px;
 }
 
 .header__nav__leftSide__link :hover
@@ -53,8 +54,8 @@
 {
     margin-right: 0px;
     margin-top: 20px;
-    margin-left: 570px;
-    margin-right: 0px;
+    position: absolute;
+    right: 0px;
     display: flex;
     color: white;
     text-decoration: none;
@@ -91,4 +92,14 @@
 .header__nav__profile:hover
 {
     color: grey;
+}
+
+.header__nav__avatar
+{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-top: -5px;
+    margin-left: 5px;
 }

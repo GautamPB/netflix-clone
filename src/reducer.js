@@ -19,7 +19,17 @@ function reducer(state, action) //data layer aka state and action aka operations
 
         case 'REMOVE_FROM_LIST':
             //logic for removing from list
-            return { state }
+            let newWatchlist = [...state.watchlist]
+            const index = state.watchlist.findIndex((watchlistItem) => watchlistItem.id === action.id)
+            if (index >= 0) {
+                //item exists in the watchlist, remove it
+                newWatchlist.splice(index, 1)
+            } else {
+                console.warn(
+                    'Item does not exist in the watchlist!'
+                )
+            }
+            return { ...state, watchlist: newWatchlist }
             break;
 
         default:

@@ -3,7 +3,6 @@ import './Header.css'
 import { Link } from 'react-router-dom'
 import SearchIcon from '@material-ui/icons/Search'
 import BellIcon from '@material-ui/icons/Notifications'
-import PersonIcon from '@material-ui/icons/Person'
 
 
 const Header = () => {
@@ -25,15 +24,17 @@ const Header = () => {
                 <Link to='/watchlist' className='header__nav__leftSide__link'>
                     <p>My List</p>
                 </Link>
-                {/* <Link to='/login'>
-                    <p>Logout</p>
-                </Link> */}
             </div>
 
             <div className='header__nav__rightSide'>
                 <SearchIcon className='header__nav__search' />
                 <BellIcon className='header__nav__bell' />
-                <PersonIcon className='header__nav__profile' />
+                <span>
+                    <img className='header__nav__avatar'
+                        src='https://i.pinimg.com/originals/0d/dc/ca/0ddccae723d85a703b798a5e682c23c1.png'
+                        alt=''
+                    />
+                </span>
             </div>
         </nav>
     )

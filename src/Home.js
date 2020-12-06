@@ -108,7 +108,7 @@ function Home() {
                 />
 
                 <Movie id='9'
-                    image='https://img.reelgood.com/content/movie/c0feaf4b-6d45-49fd-8697-53e283c7267b/backdrop-1920.jpg'
+                    image='https://writtenbehindtheveil.files.wordpress.com/2020/06/green-mile-2.jpg'
                     duration='3h 9mins'
                     age='18+'
                     year='1999'
